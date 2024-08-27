@@ -1,0 +1,40 @@
+.blog-list {
+  padding: 20px;
+  max-width: 800px; /* Define uma largura máxima */
+  margin: 0 auto;   /* Centraliza o contêiner horizontalmente */
+}
+
+.blog-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center; /* Centraliza o título */
+}
+
+.blog-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-list li {
+  margin-bottom: 20px;
+  text-align: center; /* Centraliza o texto dentro do item da lista */
+}
+
+.blog-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.blog-list .view-all {
+  display: block;
+  margin-top: 20px;
+  text-align: center; /* Centraliza o link "view all" */
+  color: #007bff;
+  text-decoration: none;
+}
+
+.blog-list .view-all:hover {
+  text-decoration: underline;
+}

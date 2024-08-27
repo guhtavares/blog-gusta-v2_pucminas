@@ -1,0 +1,10 @@
+<section class="blog-list">
+  <h2 style="font-size: 28px;">Últimas do blog</h2>
+  <ul>
+    <li *ngFor="let post of posts">
+      <a href="#" style="font-size: 20px;">{{ post.title }}</a>
+      <div [innerHTML]="post.summary" style="font-size: 16px;"></div>
+    </li>
+  </ul>
+  <a href="#" class="view-all" style="font-size: 18px;">Ver tudo</a>
+</section>
